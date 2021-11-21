@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  app:
+    image: matykova/crt-symfony-1:php-and-text
+
+  database:
+    image: postgres:11-alpine
